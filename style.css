@@ -826,7 +826,7 @@ footer span:nth-child(2) {
 
 @media (max-width: 700px) and (orientation: landscape) {
     header {
-        height: 600px;
+        height: 800px;
     }
 }
 
