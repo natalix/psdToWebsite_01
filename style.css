@@ -688,6 +688,12 @@ footer span:nth-child(2) {
     }
 }
 
+@media (max-width: 1000px) and (orientation: landscape) {
+    header {
+        height: 500px;
+    }
+}
+
 @media (max-width: 850px) {
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -821,12 +827,6 @@ footer span:nth-child(2) {
     
     footer div > * {
         font-size: 12px;
-    }
-}
-
-@media (max-width: 700px) and (orientation: landscape) {
-    header {
-        height: 800px;
     }
 }
 
