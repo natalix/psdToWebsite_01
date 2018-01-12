@@ -824,9 +824,9 @@ footer span:nth-child(2) {
     }
 }
 
-@media (max-width: 800px) and (orientation: landscape) {
+@media (max-width: 700px) and (orientation: landscape) {
     header {
-        height: 400px;
+        height: 600px;
     }
 }
 
