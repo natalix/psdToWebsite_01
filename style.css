@@ -628,10 +628,6 @@ footer span:nth-child(2) {
     .col-md-11 {width: 91.66%;}
     .col-md-12 {width: 100%;}
 
-    header {
-        min-height: 100vh;
-    }
-
     header h1 {
         font-size: 38px;
     }
@@ -825,6 +821,12 @@ footer span:nth-child(2) {
     
     footer div > * {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+    header {
+        height: 400px;
     }
 }
 
