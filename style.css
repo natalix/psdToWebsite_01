@@ -106,6 +106,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -251,6 +252,7 @@ header p {
 /* QUOTE */
 .quote {
     background: url("./img/quotesImg.png") #000;
+    background-position: center;
     height: 500px;
     position: relative;  
 }
