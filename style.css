@@ -166,7 +166,7 @@ header p {
     height: 0;
     width: 0;
     position: absolute;
-	border-left: 98vw solid #ed145b;
+	border-left: 95vw solid #ed145b;
 	border-bottom: 20px solid transparent;
 }
 
@@ -665,6 +665,7 @@ footer span:nth-child(2) {
 
     .more-about p {
         padding-right: 25px;
+        max-width: 100%;
     }
         
     .more-about img {
