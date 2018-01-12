@@ -628,6 +628,10 @@ footer span:nth-child(2) {
     .col-md-11 {width: 91.66%;}
     .col-md-12 {width: 100%;}
 
+    header {
+        min-height: 100vh;
+    }
+
     header h1 {
         font-size: 38px;
     }
