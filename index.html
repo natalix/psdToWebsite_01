@@ -1,315 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Project: PSD to HTML/CSS</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://use.fontawesome.com/18dd4f994e.js"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <header id="home">
-            <div class="container">
-                <nav>
-                    <img src="./img/LogoMache.png" alt="Company logo">
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#aboutUs">About Us</a></li>
-                        <li><a href="#ourServices">Our Services</a></li>
-                        <li><a href="#prices">Prices</a></li>
-                        <li><a href="#contact">Contact</a></li>            
-                    </ul>
-                </nav>
-                <div class="header-content">
-                    <h1 class="underline"><span>Mache</span> free psd Template</h1>
-                    <p>Elegant and clean PSD template, which you can download and use for free!<br> 
-                        You can easily modify the design to make it your own and help you get your project running faster.</p>
-                    <button class="red-btn">Show more</button>
-                </div>
-            </div>
-        </header>
-        <section id="aboutUs">
-            <div class="red-triangle"></div>
-            <div class="container about">
-                <div>
-                    <h2 class="underline section-header">Powerfull PSD template available for free!</h2>
-                    <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in.</p>
-                    <button class="red-caption">See the Video <i class="fa fa-play" aria-hidden="true"></i></button>
-                </div>
-                <img src="./img/MacBookPro.png" alt="MacBook Photo">
-            </div>
-        </section>
-        <section id="ourServices" class="container services">
-            <h2 class="underline section-header">Our Services</h2>
-            <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            <div class="row">
-                <div class="col-3 col-s-6 col-xs-12">
-                    <div class="circle"><img src="./img/FullyEditable.png" alt="Fully Editable Icon"></div>
-                    <h3 class="red-caption">Fully Editable</h3>
-                </div>
-                <div class="col-3 col-s-6 col-xs-12">
-                    <div class="circle"><img src="./img/FreeDownload.png" alt="Free Download Icon"></div>
-                    <h3 class="red-caption">Free Download</h3>
-                </div>
-                <div class="col-3 col-s-6 col-xs-12">
-                    <div class="circle"><img src="./img/ModernDesign.png" alt="Modern Design Icon"></div>
-                    <h3 class="red-caption">Modern Design</h3>
-                </div>
-                <div class="col-3 col-s-6 col-xs-12">
-                    <div class="circle"><img src="./img/100Responsive.png" alt="Responsive Icon"></div>
-                    <h3 class="red-caption">100% Responsive</h3>
-                </div>
-            </div>
-        </section>
-        <div class="quote">
-            <div class="angles">
-                <img src="./img/001__arrow_left.png" alt="left arrow">
-                <img src="./img/001__arrow_right.png" alt="right arrow">
-            </div>
-            <div>
-                <img class="red-quotes" src="./img/openQ.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor 
-                    incididunt ut labore tet dolore magna aliqua.  Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex. </p>
-                <img class="red-quotes" src="./img/closeQ.png" alt="">
-            </div>
+
+<head>
+  <title>Project: PSD to HTML/CSS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/18dd4f994e.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header id="home" class="header">
+    <div class="container">
+      <nav class="top-bar">
+        <img src="./img/LogoMache.png" alt="Company logo">
+        <ul class="navigation">
+          <li class="nav-item">
+            <a href="#home" class="nav-item-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#aboutUs" class="nav-item-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#ourServices" class="nav-item-link">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#prices" class="nav-item-link">Prices</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-item-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-content">
+        <h1 class="heading underline"><span>Mache</span> free psd Template</h1>
+        <p class="header-content-text">Elegant and clean PSD template, which you can download and use for free!<br>
+          You can easily modify the design to make it your own and help you get your project running faster.</p>
+        <button class="red-btn">Show more</button>
+      </div>
+    </div>
+  </header>
+  <section class="about-section" id="aboutUs">
+    <div class="red-triangle"></div>
+    <div class="container about">
+      <div>
+        <h2 class="underline section-header">Powerfull PSD template available for free!</h2>
+        <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in.</p>
+        <button class="red-caption">See the Video <i class="fa fa-play" aria-hidden="true"></i></button>
+      </div>
+      <img class="about-img" src="./img/MacBookPro.png" alt="MacBook Photo">
+    </div>
+  </section>
+  <section id="ourServices" class="container services">
+    <h2 class="underline section-header">Our Services</h2>
+    <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+    <div class="row">
+      <div class="circle-container col-3 col-s-6 col-xs-12">
+        <div class="circle">
+          <img class="circle-img" src="./img/FullyEditable.png" alt="Fully Editable Icon">
         </div>
-        <section id="prices">
-            <div class="container">
-                <h2 class="underline section-header">Check Our Prices</h2>
-                <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                <div class="row offer">
-                    <div class="col-3 col-md-6 col-xs-12">
-                        <div>
-                            <div class="grey-box">
-                                <p>$ <span>19</span></p>
-                                <p>per month</p>
-                                <button class ="red-btn">Standard</button>
-                            </div>
-                        </div>
-                        <div class="box-height">
-                            <ul>
-                                <li>5 Projects</li>
-                                <li>200 MB Storage</li>
-                                <li>Notification settings</li>
-                                <li>Password protection</li>
-                            </ul>
-                            <button class="red-btn">Buy now</button>
-                        </div>
-                    </div>
-                    <div class="col-3 col-md-6 col-xs-12">
-                        <div>
-                            <div class="grey-box">
-                                <p>$ <span>39</span></p>
-                                <p>per month</p>
-                                <button class ="red-btn">Business</button>
-                            </div>
-                        </div>
-                        <div class="box-height">
-                            <ul>
-                                <li>15 Projects</li>
-                                <li>1 GB Storage</li>
-                                <li>Notification settings</li>
-                                <li>Password protection</li>
-                            </ul>
-                            <button class="red-btn">Buy now</button>
-                        </div>
-                    </div>
-                    <div class="col-3 col-md-6 col-xs-12">
-                        <div>
-                            <div class="grey-box">
-                                <p>$ <span>59</span></p>
-                                <p>per month</p>
-                                <button class ="red-btn">Premium</button>
-                            </div>
-                        </div>
-                        <div class="box-height">
-                            <ul>
-                                <li>30 Projects</li>
-                                <li>2 GB Storage</li>
-                                <li>Notification settings</li>
-                                <li>Password protection</li>
-                            </ul>
-                            <button class="red-btn">Buy now</button>
-                        </div>
-                    </div>
-                    <div class="col-3 col-md-6 col-xs-12">
-                        <div>
-                            <div class="grey-box">
-                                <p>$ <span>99</span></p>
-                                <p>per month</p>
-                                <button class ="red-btn">Unlimited</button>
-                            </div>
-                        </div>
-                        <div class="box-height">
-                            <ul>
-                                <li>Unlimited Projects</li>
-                                <li>Unlimited Storage</li>
-                                <li>Notification settings</li>
-                                <li>Password protection</li>
-                            </ul>
-                            <button class="red-btn">Buy now</button>
-                        </div>
-                    </div>
-                </div>
+        <h3 class="red-caption">Fully Editable</h3>
+      </div>
+      <div class="circle-container col-3 col-s-6 col-xs-12">
+        <div class="circle">
+          <img class="circle-img" src="./img/FreeDownload.png" alt="Free Download Icon">
+        </div>
+        <h3 class="red-caption">Free Download</h3>
+      </div>
+      <div class="circle-container col-3 col-s-6 col-xs-12">
+        <div class="circle">
+          <img class="circle-img" src="./img/ModernDesign.png" alt="Modern Design Icon">
+        </div>
+        <h3 class="red-caption">Modern Design</h3>
+      </div>
+      <div class="circle-container col-3 col-s-6 col-xs-12">
+        <div class="circle">
+          <img class="circle-img" src="./img/100Responsive.png" alt="Responsive Icon">
+        </div>
+        <h3 class="red-caption">100% Responsive</h3>
+      </div>
+    </div>
+  </section>
+  <div class="quote">
+    <div class="angles">
+      <img src="./img/001__arrow_left.png" alt="left arrow">
+      <img src="./img/001__arrow_right.png" alt="right arrow">
+    </div>
+    <div class="quote-content">
+      <img class="red-quotes" src="./img/openQ.png" alt="">
+      <p class="quote-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor
+        incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex. </p>
+      <img class="red-quotes" src="./img/closeQ.png" alt="">
+    </div>
+  </div>
+  <section class="prices" id="prices">
+    <div class="container">
+      <h2 class="underline section-header">Check Our Prices</h2>
+      <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+      <div class="row offer">
+        <div class="offer-item col-3 col-md-6 col-xs-12">
+          <div>
+            <div class="grey-box">
+              <p class="grey-box-text">$ <span>19</span></p>
+              <p class="grey-box-text">per month</p>
+              <button class="red-btn">Standard</button>
             </div>
-        </section>
-        <section class="container more-about">
-            <div class="row">
-                <div class="col-4 col-s-12">
-                    <img src="./img/highResol.png" alt="">
-                    <h3 class="red-caption">High resolution</h3>
-                    <p class="section-para">Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-                </div>
-                <div class="col-4 col-s-12">
-                    <img src="./img/photo.png" alt="">
-                    <h3 class="red-caption">Photography</h3>
-                    <p class="section-para">Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-                </div>
-                <div class="col-4 col-s-12">
-                    <img src="./img/customize.png" alt="">
-                    <h3 class="red-caption">Easy to customize</h3>
-                    <p class="section-para">Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-                </div>
+          </div>
+          <div class="box-height">
+            <ul class="offer-list">
+              <li>5 Projects</li>
+              <li>200 MB Storage</li>
+              <li>Notification settings</li>
+              <li>Password protection</li>
+            </ul>
+            <button class="red-btn">Buy now</button>
+          </div>
+        </div>
+        <div class="offer-item col-3 col-md-6 col-xs-12">
+          <div>
+            <div class="grey-box">
+              <p class="grey-box-text">$ <span>39</span></p>
+              <p class="grey-box-text">per month</p>
+              <button class="red-btn">Business</button>
             </div>
-            <div class="row">
-                <div class="col-4 col-s-12">
-                    <img src="./img/support.png" alt="">
-                    <h3 class="red-caption">24/7 support</h3>
-                    <p class="section-para">Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-                </div>
-                <div class="col-4 col-s-12">
-                    <img src="./img/powerful.png" alt="">
-                    <h3 class="red-caption">Powerfull theme</h3>
-                    <p class="section-para">Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-                </div>
-                <div class="col-4 col-s-12">
-                    <img src="./img/optimization.png" alt="">
-                    <h3 class="red-caption">SEO optimization</h3>
-                    <p class="section-para">Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-                </div>
+          </div>
+          <div class="box-height">
+            <ul class="offer-list">
+              <li>15 Projects</li>
+              <li>1 GB Storage</li>
+              <li>Notification settings</li>
+              <li>Password protection</li>
+            </ul>
+            <button class="red-btn">Buy now</button>
+          </div>
+        </div>
+        <div class="offer-item col-3 col-md-6 col-xs-12">
+          <div>
+            <div class="grey-box">
+              <p class="grey-box-text">$ <span>59</span></p>
+              <p class="grey-box-text">per month</p>
+              <button class="red-btn">Premium</button>
             </div>
-        </section>
-        <section class="join-us">
-            <div class="container">
-                <div class="row">
-                    <h4 class="col-9 col-md-12">Became a part of <span>mache</span> community today</h4>
-                    <button class="col-3 red-btn">Join us</button>
-                </div>
+          </div>
+          <div class="box-height">
+            <ul class="offer-list">
+              <li>30 Projects</li>
+              <li>2 GB Storage</li>
+              <li>Notification settings</li>
+              <li>Password protection</li>
+            </ul>
+            <button class="red-btn">Buy now</button>
+          </div>
+        </div>
+        <div class="offer-item col-3 col-md-6 col-xs-12">
+          <div>
+            <div class="grey-box">
+              <p class="grey-box-text">$ <span>99</span></p>
+              <p class="grey-box-text">per month</p>
+              <button class="red-btn">Unlimited</button>
             </div>
-        </section>
-        <section class="container gallery">
-            <h2 class="underline section-header">Our Latest Updates</h2>
-            <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            <div class="row">
-                <div class="col-4 col-s-12 gallery-box">
-                    <div>
-                        <div class="box-layer">
-                            <img src="./img/img1.jpg" alt="">                        
-                            <div class="search-ico"></div>
-                        </div>
-                        <h5>LOREM IPSUMa DOLOR SIT</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    </div>
-                </div>
-                <div class="col-4 col-s-12 gallery-box">
-                    <div>
-                        <div class="box-layer">
-                            <img src="./img/img2.jpg" alt="">                   
-                            <div class="search-ico"></div>
-                        </div>
-                        <h5>LOREM IPSUMa DOLOR SIT</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    </div> 
-                </div>
-                <div class="col-4 col-s-12 gallery-box">
-                    <div>
-                        <div class="box-layer">
-                            <img src="./img/img3.jpg" alt="">         
-                            <div class="search-ico"></div>
-                        </div>
-                        <h5>LOREM IPSUMa DOLOR SIT</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4 col-s-12 gallery-box">
-                    <div>
-                        <div class="box-layer">
-                            <img src="./img/img4.jpg" alt="">                     
-                            <div class="search-ico"></div>
-                        </div>
-                        <h5>LOREM IPSUMa DOLOR SIT</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    </div>
-                </div>
-                <div class="col-4 col-s-12 gallery-box">
-                    <div>
-                        <div class="box-layer">
-                            <img src="./img/img5.jpg" alt="">                   
-                            <div class="search-ico"></div>
-                        </div>
-                        <h5>LOREM IPSUMa DOLOR SIT</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    </div>
-                </div>
-                <div class="col-4 col-s-12 gallery-box">
-                    <div>
-                        <div class="box-layer">
-                            <img src="./img/img6.jpg" alt="">                       
-                            <div class="search-ico"></div>
-                        </div>
-                        <h5>LOREM IPSUMa DOLOR SIT</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="show-more">
-                <p class="red-caption">Show more</p>
-                <img src="./img/arrow_down_red.png" alt="">
-           </div>
-        </section>
-        <section class="banner">
-            <h3 class="section-header underline">Mache Free PSD Template</h3>
-            <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            <button class="red-btn">Show more</button>
-        </section>
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <img src="./img/desktop.png" alt="">
-                    </div>
-                    <div class="col-6 col-s-12 contact-margin col-offset-6">
-                        <h3 class="underline section-header">Please share some love by appreciate it and download!</h3>
-                        <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in.</p>
-                        <button class="red-btn">Download now</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="container">
-                <div class="col-4 col-xs-12">
-                    <h6>&copy; 2015 COPYRIGHT MACHE TEMPLATE</h6>
-                </div>
-                <div class="col-4 col-xs-12">
-                    <p><i class="fa fa-code" aria-hidden="true"></i> by Natalia Mazurczak </p>
-                </div>
-                <div class="col-4 col-xs-12">
-                    <p>DESIGNED BY <span>SYMU</span><span>.</span>CO</p>
-                </div>
-            </div>
-        </footer>
-    </body>
+          </div>
+          <div class="box-height">
+            <ul class="offer-list">
+              <li>Unlimited Projects</li>
+              <li>Unlimited Storage</li>
+              <li>Notification settings</li>
+              <li>Password protection</li>
+            </ul>
+            <button class="red-btn">Buy now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container more-about">
+    <div class="row more-about-first">
+      <div class="more-about-item col-4 col-s-12">
+        <img class="more-about-img" src="./img/highResol.png" alt="">
+        <h3 class="red-caption">High resolution</h3>
+        <p class="section-para">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna </p>
+      </div>
+      <div class=" more-about-item col-4 col-s-12">
+        <img class="more-about-img" src="./img/photo.png" alt="">
+        <h3 class="red-caption">Photography</h3>
+        <p class="section-para">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna </p>
+      </div>
+      <div class="more-about-item col-4 col-s-12">
+        <img class="more-about-img" src="./img/customize.png" alt="">
+        <h3 class="red-caption">Easy to customize</h3>
+        <p class="section-para">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna </p>
+      </div>
+    </div>
+    <div class="row more-about-second">
+      <div class="more-about-item col-4 col-s-12">
+        <img class="more-about-img" src="./img/support.png" alt="">
+        <h3 class="red-caption">24/7 support</h3>
+        <p class="section-para">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna </p>
+      </div>
+      <div class="more-about-item col-4 col-s-12">
+        <img class="more-about-img" src="./img/powerful.png" alt="">
+        <h3 class="red-caption">Powerfull theme</h3>
+        <p class="section-para">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna </p>
+      </div>
+      <div class="more-about-item col-4 col-s-12">
+        <img class="more-about-img" src="./img/optimization.png" alt="">
+        <h3 class="red-caption">SEO optimization</h3>
+        <p class="section-para">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna </p>
+      </div>
+    </div>
+  </section>
+  <section class="join-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-9 col-md-12">
+          <h4 class="join-us-heading">Became a part of <span>mache</span> community today</h4>
+        </div>
+        <div class="col-3 col-md-12">
+          <button class="red-btn">Join us</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container gallery">
+    <h2 class="underline section-header">Our Latest Updates</h2>
+    <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+    <div class="row">
+      <div class="col-4 col-s-12 gallery-box">
+        <div>
+          <div class="box-layer">
+            <img src="./img/img1.jpg" alt="">
+            <div class="search-ico"></div>
+          </div>
+          <h5 class="gallery-box-heading">LOREM IPSUMa DOLOR SIT</h5>
+          <p class="gallery-box-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+        </div>
+      </div>
+      <div class="col-4 col-s-12 gallery-box">
+        <div>
+          <div class="box-layer">
+            <img src="./img/img2.jpg" alt="">
+            <div class="search-ico"></div>
+          </div>
+          <h5 class="gallery-box-heading">LOREM IPSUMa DOLOR SIT</h5>
+          <p class="gallery-box-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+        </div>
+      </div>
+      <div class="col-4 col-s-12 gallery-box">
+        <div>
+          <div class="box-layer">
+            <img src="./img/img3.jpg" alt="">
+            <div class="search-ico"></div>
+          </div>
+          <h5 class="gallery-box-heading">LOREM IPSUMa DOLOR SIT</h5>
+          <p class="gallery-box-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 col-s-12 gallery-box">
+        <div>
+          <div class="box-layer">
+            <img src="./img/img4.jpg" alt="">
+            <div class="search-ico"></div>
+          </div>
+          <h5 class="gallery-box-heading">LOREM IPSUMa DOLOR SIT</h5>
+          <p class="gallery-box-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+        </div>
+      </div>
+      <div class="col-4 col-s-12 gallery-box">
+        <div>
+          <div class="box-layer">
+            <img src="./img/img5.jpg" alt="">
+            <div class="search-ico"></div>
+          </div>
+          <h5 class="gallery-box-heading">LOREM IPSUMa DOLOR SIT</h5>
+          <p class="gallery-box-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+        </div>
+      </div>
+      <div class="col-4 col-s-12 gallery-box">
+        <div>
+          <div class="box-layer">
+            <img src="./img/img6.jpg" alt="">
+            <div class="search-ico"></div>
+          </div>
+          <h5 class="gallery-box-heading">LOREM IPSUMa DOLOR SIT</h5>
+          <p class="gallery-box-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et.</p>
+        </div>
+      </div>
+    </div>
+    <div class="show-more">
+      <p class="red-caption">Show more</p>
+      <img src="./img/arrow_down_red.png" alt="">
+    </div>
+  </section>
+  <section class="banner">
+    <h3 class="section-header underline">Mache Free PSD Template</h3>
+    <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    <button class="red-btn">Show more</button>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <img src="./img/desktop.png" alt="">
+        </div>
+        <div class="col-6 col-s-12 contact-margin col-offset-6">
+          <h3 class="underline section-header">Please share some love by appreciate it and download!</h3>
+          <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in.</p>
+          <button class="red-btn">Download now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="col-4 col-xs-12">
+        <h6>&copy; 2015 COPYRIGHT MACHE TEMPLATE</h6>
+      </div>
+      <div class="col-4 col-xs-12">
+        <p><i class="fa fa-code" aria-hidden="true"></i> by Natalia Mazurczak </p>
+      </div>
+      <div class="col-4 col-xs-12">
+        <p>DESIGNED BY <span>SYMU</span><span>.</span>CO</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
